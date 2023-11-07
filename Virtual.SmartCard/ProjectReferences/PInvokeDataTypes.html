@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>The following table lists data types used in the Win32 API (listed in Wtypes.h) and C-style functions. Many unmanaged libraries contain functions that pass these data types as parameters and return values. The third column lists the corresponding .NET Framework built-in value type or class that you use in managed code. In some cases, you can substitute a type of the same size for the type listed in the table.</p>
+
+            <table>
+              <tbody><tr>
+                <th>
+                  <p>Unmanaged type in Wtypes.h </p>
+                </th>
+                <th>
+                  <p>Unmanaged C language type</p>
+                </th>
+                <th>
+                  <p>Managed class name</p>
+                </th>
+                <th>
+                  <p>Description</p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>HANDLE</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>void*</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.intptr.aspx">IntPtr</a>
+                  </p>
+                </td>
+                <td>
+                  <p>32 bits on 32-bit Windows operating systems, 64 bits on 64-bit Windows operating systems.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>BYTE</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>unsigned char</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.byte.aspx">Byte</a>
+                  </p>
+                </td>
+                <td>
+                  <p>8 bits</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>SHORT</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>short</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.int16.aspx">Int16</a>
+                  </p>
+                </td>
+                <td>
+                  <p>16 bits</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>WORD</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>unsigned short</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.uint16.aspx">UInt16</a>
+                  </p>
+                </td>
+                <td>
+                  <p>16 bits</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>INT</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>int</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx">Int32</a>
+                  </p>
+                </td>
+                <td>
+                  <p>32 bits</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>UINT</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>unsigned int</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.uint32.aspx">UInt32</a>
+                  </p>
+                </td>
+                <td>
+                  <p>32 bits</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>LONG</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>long</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx">Int32</a>
+                  </p>
+                </td>
+                <td>
+                  <p>32 bits</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>BOOL</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>long</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.sbyte.aspx">System.Int32</a>
+                  </p>
+                </td>
+                <td>
+                  <p>32 bits</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>DWORD</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>unsigned long</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.uint32.aspx">UInt32</a>
+                  </p>
+                </td>
+                <td>
+                  <p>32 bits</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>ULONG</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>unsigned long</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.uint32.aspx">UInt32</a>
+                  </p>
+                </td>
+                <td>
+                  <p>32 bits</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>CHAR</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>char</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.char.aspx">Char</a>
+                  </p>
+                </td>
+                <td>
+                  <p>Decorate with ANSI.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>WCHAR</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>wchar_t</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.char.aspx">Char</a>
+                  </p>
+                </td>
+                <td>
+                  <p>Decorate with Unicode.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>LPSTR</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>char*</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx">String</a> or <a href="http://msdn.microsoft.com/en-us/library/system.text.stringbuilder.aspx">StringBuilder</a></p>
+                </td>
+                <td>
+                  <p>Decorate with ANSI.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>LPCSTR</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>Const char*</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx">String</a> or <a href="http://msdn.microsoft.com/en-us/library/system.text.stringbuilder.aspx">StringBuilder</a></p>
+                </td>
+                <td>
+                  <p>Decorate with ANSI.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>LPWSTR</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>wchar_t*</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx">String</a> or <a href="http://msdn.microsoft.com/en-us/library/system.text.stringbuilder.aspx">StringBuilder</a></p>
+                </td>
+                <td>
+                  <p>Decorate with Unicode.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>LPCWSTR</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>Const wchar_t*</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx">String</a> or <a href="http://msdn.microsoft.com/en-us/library/system.text.stringbuilder.aspx">StringBuilder</a></p>
+                </td>
+                <td>
+                  <p>Decorate with Unicode.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>FLOAT</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>Float</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.single.aspx">Single</a>
+                  </p>
+                </td>
+                <td>
+                  <p>32 bits</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>DOUBLE</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <strong>Double</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <a href="http://msdn.microsoft.com/en-us/library/system.double.aspx">Double</a>
+                  </p>
+                </td>
+                <td>
+                  <p>64 bits</p>
+                </td>
+              </tr>
+            </tbody></table>
+          
+</body>
+</html>

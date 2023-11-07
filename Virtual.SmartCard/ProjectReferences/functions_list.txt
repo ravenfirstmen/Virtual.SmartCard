@@ -1,0 +1,48 @@
+
+== Smart Card Database Query Functions (Windows)
+SCardGetProviderId	- Retrieve the identifier (GUID) of the primary service provider for the given card.
+SCardListCards	- Retrieve a list of cards previously introduced to the system by a specific user.
+SCardListInterfaces	- Retrieve the identifiers (GUIDs) of the interfaces supplied by a given card.
+SCardListReaderGroups	- Retrieve a list of reader groups that have previously been introduced to the system.
+SCardListReaders	- Retrieve the list of readers within a set of named reader groups.
+
+== Smart Card Database Management Functions (Windows)
+SCardAddReaderToGroup	- Add a reader to a reader group.
+SCardForgetCardType	- Remove a smart card from the system.
+SCardForgetReader	- Remove a reader from the system.
+SCardForgetReaderGroup	- Remove a reader group from the system.
+SCardIntroduceCardType	- Introduce a new card to the system.
+SCardIntroduceReader	- Introduce a new reader to the system.
+SCardIntroduceReaderGroup	- Introduce a new reader group to the system.
+SCardRemoveReaderFromGroup	- Remove a reader from a reader group.
+
+== Resource Manager Context Functions (Windows)
+SCardEstablishContext	- Establishes a context for accessing the smart card database.
+SCardReleaseContext	- Closes an established context.
+
+== Resource Manager Support Function (Windows)
+SCardFreeMemory	- Release memory returned through the use of SCARD_AUTOALLOCATE.
+
+== Smart Card Tracking Functions (Windows)
+SCardLocateCards	- Search for a card whose ATR string matches a supplied card name.
+SCardGetStatusChange	- Block execution until the current availability of cards changes.
+SCardCancel	- Terminate outstanding actions.
+ 
+== Smart Card and Reader Access Functions (Windows)
+SCardConnect	- Connect to a card.
+SCardReconnect	- Reestablish a connection.
+SCardDisconnect	- Terminate a connection.
+SCardBeginTransaction	- Start a transaction, blocking other applications from accessing a card.
+SCardEndTransaction	- End a transaction, allowing other applications to access a card.
+SCardStatus	- Provide the current status of the reader.
+SCardTransmit	- Requests service and receives data back from a card using T=0, T=1, and raw protocols.
+ 
+== Direct Card Access Functions (Windows)
+SCardControl	- Provide direct control of the reader.
+SCardGetAttrib	- Get reader attributes.
+SCardSetAttrib	- Set reader attribute. 
+ 
+ 
+
+
+ 

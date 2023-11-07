@@ -1,0 +1,51 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Virtual.SmartCards.Console", "Virtual.SmartCards.Console\Virtual.SmartCards.Console.csproj", "{F9DDBAA6-0420-4527-8E7A-436C6610B7D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{43DB6EBA-9F54-4591-8FCA-17D180BF26DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Virtual.SmartCards.Asn1.Tests", "Tests\Virtual.SmartCards.Asn1.Tests\Virtual.SmartCards.Asn1.Tests.csproj", "{9353B0B4-D5AD-475D-A84B-CA3F1A7638B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Virtual.SmartCards.Parsers.Tests", "Tests\Virtual.SmartCards.Parsers.Tests\Virtual.SmartCards.Parsers.Tests.csproj", "{A1F9FC22-30F2-4950-9079-857207A518F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualSmartCards.Formaters.Tests", "Tests\VirtualSmartCards.Formaters.Tests\VirtualSmartCards.Formaters.Tests.csproj", "{C48229E7-B1B1-43BC-A056-5483690C5B81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Virtual.SmartCard", "Virtual.SmartCard\Virtual.SmartCard.csproj", "{634C880D-E529-4608-A74E-3665BF701671}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9DDBAA6-0420-4527-8E7A-436C6610B7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DDBAA6-0420-4527-8E7A-436C6610B7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DDBAA6-0420-4527-8E7A-436C6610B7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DDBAA6-0420-4527-8E7A-436C6610B7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9353B0B4-D5AD-475D-A84B-CA3F1A7638B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9353B0B4-D5AD-475D-A84B-CA3F1A7638B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9353B0B4-D5AD-475D-A84B-CA3F1A7638B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9353B0B4-D5AD-475D-A84B-CA3F1A7638B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F9FC22-30F2-4950-9079-857207A518F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F9FC22-30F2-4950-9079-857207A518F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F9FC22-30F2-4950-9079-857207A518F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F9FC22-30F2-4950-9079-857207A518F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48229E7-B1B1-43BC-A056-5483690C5B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48229E7-B1B1-43BC-A056-5483690C5B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48229E7-B1B1-43BC-A056-5483690C5B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48229E7-B1B1-43BC-A056-5483690C5B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634C880D-E529-4608-A74E-3665BF701671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634C880D-E529-4608-A74E-3665BF701671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634C880D-E529-4608-A74E-3665BF701671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634C880D-E529-4608-A74E-3665BF701671}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9353B0B4-D5AD-475D-A84B-CA3F1A7638B6} = {43DB6EBA-9F54-4591-8FCA-17D180BF26DD}
+		{A1F9FC22-30F2-4950-9079-857207A518F5} = {43DB6EBA-9F54-4591-8FCA-17D180BF26DD}
+		{C48229E7-B1B1-43BC-A056-5483690C5B81} = {43DB6EBA-9F54-4591-8FCA-17D180BF26DD}
+	EndGlobalSection
+EndGlobal
