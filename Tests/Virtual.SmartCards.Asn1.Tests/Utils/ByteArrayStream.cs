@@ -48,9 +48,7 @@ namespace Virtual.SmartCards.Asn1.Tests.Utils
 
             for (int i = 0; i < input.Length/2; i++)
             {
-                byte temp = input[i];
-                input[i] = input[highBound];
-                input[highBound] = temp;
+                (input[i], input[highBound]) = (input[highBound], input[i]);
                 highBound--;
             }
 

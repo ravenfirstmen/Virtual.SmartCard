@@ -61,14 +61,14 @@ namespace Virtual.SmartCard
             {
 
                 UInt32 namesSize = 0;
-                var or = NativeAPI.SCardListReaders(context.GetContext(), SmartCardReadersGroups.All, null, ref namesSize);
+                var or = NativeAPI.SCardListReaders(context.GetContext(), SmartCardReadersGroups.All, out string readers, ref namesSize);
                 if (or != NativeAPI.OperationResult.SUCCESS)
                 {
                     throw new SmartCardException("SmartCardDatabaseQuery: GetAllReaders: Obtain size", or);
                 }
 
                 var fullReadersString = new String(' ', (int)namesSize);
-                or = NativeAPI.SCardListReaders(context.GetContext(), SmartCardReadersGroups.All, fullReadersString,
+                or = NativeAPI.SCardListReaders(context.GetContext(), SmartCardReadersGroups.All, out fullReadersString,
                                                 ref namesSize);
                 if (or != NativeAPI.OperationResult.SUCCESS)
                 {

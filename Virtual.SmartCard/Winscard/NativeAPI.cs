@@ -86,7 +86,7 @@ namespace Virtual.SmartCard.Winscard
         internal static extern Int32 SCardListReaders(
             [In] IntPtr context,
             [In, Optional] string groups,
-            [Out] string readers,
+            out string readers,
             [In, Out] ref UInt32 namesSize);
 
         //LONG WINAPI SCardListCards(
